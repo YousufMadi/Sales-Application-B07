@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the view for the user which is #2-->
+
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:id="@+id/Constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ItemPrompt"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/items_array" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editShoppingQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:hint="@string/quantity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/btnShoppingRemoveItem"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="84dp"
+                android:layout_weight="1"
+                android:text="@string/RemoveItem" />
+
+            <Button
+                android:id="@+id/btnShoppingAddItem"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="84dp"
+                android:layout_weight="1"
+                android:text="@string/AddItem" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/inventory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:text="@string/TotalPrice"
+            android:textSize="20sp" />
+
+        <ListView
+            android:layout_width="361dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="116dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal">
+
+
+            <Button
+                android:id="@+id/btnCheckout"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="84dp"
+                android:layout_weight="1"
+                android:text="@string/CheckOut" />
+
+            <Button
+                android:id="@+id/btnSaveCart"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="84dp"
+                android:layout_weight="1"
+                android:text="@string/btnSaveCart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/btnCustomerLogout"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="84dp"
+                android:layout_weight="1"
+                android:text="@string/LogOut" />
+
+            <Button
+                android:id="@+id/btnRestoreCart"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="84dp"
+                android:layout_weight="1"
+                android:text="@string/RestoreAccount" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><!-- THIS IS A LAYOUT TO SHOW AN EMPLOYEE'S VIEW OF THE APP AND ALL THEIR FUNCTIONALITY -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/btnAdminPromoteEmployee"
+            android:layout_width="270dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6883B4"
+            android:text="@string/promote_employee" />
+
+        <Button
+            android:id="@+id/btnAdminViewBooks"
+            android:layout_width="270dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#869CC4"
+            android:text="@string/view_books" />
+
+        <Button
+            android:id="@+id/btnAdminViewInventory"
+            android:layout_width="270dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#ACBEDF"
+            android:text="@string/view_inventory" />
+
+        <Button
+            android:id="@+id/btnAdminViewAccounts"
+            android:layout_width="270dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#B3C6E9"
+            android:text="@string/view_accounts" />
+
+        <Button
+            android:id="@+id/btnAdminSerialize"
+            android:layout_width="270dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#B0BFDB"
+            android:text="@string/serialize" />
+
+        <Button
+            android:id="@+id/btnViewDeserialize"
+            android:layout_width="270dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#BDC8DF"
+            android:text="@string/deserialize" />
+
+        <Button
+            android:id="@+id/btnAdminLogout"
+            android:layout_width="270dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#CED5E4"
+            android:onClick="openLoginView"
+            android:text="@string/sixth_selection" />
+    </LinearLayout>
+</ScrollView>

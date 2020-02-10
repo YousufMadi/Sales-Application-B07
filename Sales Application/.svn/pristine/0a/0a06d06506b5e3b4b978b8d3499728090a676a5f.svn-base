@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!-- THIS IS A LAYOUT TO RESTOCK INVENTORY THAT IS ACCESSED THROUGH ACTIVITY_EMPLOYEE_VIEW.XML -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerRestockInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/items_array"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editRestockQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/restock_quantity"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnRestock"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#6883B4"
+        android:text="@string/restock_button" />
+
+</LinearLayout>

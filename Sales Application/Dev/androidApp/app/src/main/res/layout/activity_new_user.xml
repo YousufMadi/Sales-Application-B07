@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!-- THIS IS A LAYOUT TO CREATE CUSTOMERS AND EMPLOYEES THAT IS ACCESSED THROUGH ACTIVITY_EMPLOYEE_VIEW.XML -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerNewUserRoles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/roles_array"
+        android:paddingBottom="30dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editNewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name_input"
+        android:inputType="textPersonName"
+        android:paddingTop="15dp" />
+
+    <EditText
+        android:id="@+id/editNewUserAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/age_input"
+        android:inputType="number"
+        android:paddingTop="15dp" />
+
+    <EditText
+        android:id="@+id/editNewUserAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/address_input"
+        android:paddingTop="15dp" />
+
+    <EditText
+        android:id="@+id/editNewUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password_input"
+        android:inputType="textPassword"
+        android:paddingTop="15dp" />
+
+    <Button
+        android:id="@+id/btnNewUserCreate"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#6883B4"
+        android:text="@string/create_button" />
+
+</LinearLayout>

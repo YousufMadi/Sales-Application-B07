@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!-- THIS IS A LAYOUT TO CREATE ACCOUNTS THAT IS ACCESSED THROUGH ACTIVITY_EMPLOYEE_VIEW.XML -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <EditText
+        android:id="@+id/editCreateAccountId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/customer_id"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#6883B4"
+        android:text="@string/create_button" />
+
+</LinearLayout>

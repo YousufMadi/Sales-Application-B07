@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!-- THIS IS A LAYOUT TO PROMOTE EMPLOYEES THAT IS ACCESSED THROUGH ACTIVITY_ADMIN_VIEW.XML -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <EditText
+        android:id="@+id/editActiveAccountsCustomerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/customer_id"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnViewActiveAccounts"
+        android:layout_width="214dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#6883B4"
+        android:text="@string/view_active_accounts" />
+
+    <Button
+        android:id="@+id/btnViewInactiveAccounts"
+        android:layout_width="214dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#6883B4"
+        android:text="@string/view_inactive_accounts" />
+
+</LinearLayout>

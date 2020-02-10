@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!-- THIS IS A LAYOUT TO SHOW AN EMPLOYEE'S VIEW OF THE APP AND ALL THEIR FUNCTIONALITY -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <Button
+        android:id="@+id/btnEmployeeMenuAuthenticate"
+        android:layout_width="@dimen/big_button_width"
+        android:layout_height="@dimen/big_button_height"
+        android:layout_gravity="center"
+        android:backgroundTint="#6883B4"
+        android:text="@string/first_selection" />
+
+    <Button
+        android:id="@+id/btnEmployeeMenuCreateUser"
+        android:layout_width="@dimen/big_button_width"
+        android:layout_height="@dimen/big_button_height"
+        android:layout_gravity="center"
+        android:backgroundTint="#8AA3D1"
+        android:text="@string/second_selection" />
+
+    <Button
+        android:id="@+id/btnEmployeeMenuCreateAccount"
+        android:layout_width="@dimen/big_button_width"
+        android:layout_height="@dimen/big_button_height"
+        android:layout_gravity="center"
+        android:backgroundTint="#ACBEE2"
+        android:text="@string/third_selection" />
+
+    <Button
+        android:id="@+id/btnEmployeeMenuRestock"
+        android:layout_width="@dimen/big_button_width"
+        android:layout_height="@dimen/big_button_height"
+        android:layout_gravity="center"
+        android:backgroundTint="#BECBE6"
+        android:text="@string/fifth_selection" />
+
+    <Button
+        android:id="@+id/btnEmployeeMenuLogOut"
+        android:layout_width="@dimen/big_button_width"
+        android:layout_height="@dimen/big_button_height"
+        android:layout_gravity="center"
+        android:backgroundTint="#DFE3EC"
+        android:text="@string/sixth_selection" />
+</LinearLayout>
